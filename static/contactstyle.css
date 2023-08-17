@@ -1,0 +1,48 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#contact h2{
+
+ margin: 20px;
+    text-align: center;
+}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    width: 410%;
+    margin-left: -148%;
+}
+
+.myinput{
+    display: flex;
+    justify-content: center;
+    margin:14px 12px;
+    padding:9px 9px;
+    border: 2px solid #815353;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 45%;
+    font-family: 'Roboto Mono', monospace;
+}
+.btn{
+    padding: 10px 10px;
+    border: 2px solid #130505;
+    background-color: red;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 16px;
+    width: 102px;
+    color: white;
+}
+.container{
+    margin-top: 30px;
+}
+footer{
+    margin-top: 1%;
+}

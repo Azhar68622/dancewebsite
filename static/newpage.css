@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+section#thanks {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 40%;
+    height: 86%;
+    margin: auto;
+    margin: 153px 404px;
+    flex-direction: column;
+    text-align: center;
+    padding: 109px 0px;
+    border-radius: 10px;
+    background-color: bisque;
+
+}
+section#thanks:hover{
+  height: 90%;
+  color: antiquewhite;
+}
+#content{
+    
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  margin: -19px 73px;
+  color: red;
+}
+#contentp{
+    font-size: 20px;
+    margin: 33px 59px;
+}
+footer{
+    margin-top: 3%;
+}

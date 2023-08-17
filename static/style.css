@@ -1,0 +1,157 @@
+* {
+    top: 0px;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+
+  }
+  
+  /* Navbar */
+  #navbar {
+    background-color: rgb(214 64 64);
+    height: 65px;
+  }
+  
+  #navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+  }
+  
+  #navbar ul li {
+    list-style: none;
+    margin:21px 1px ;
+  }
+  
+  #navbar li a:hover {
+    color: black;
+  }
+  
+  #navbar  li a {
+    color: white;
+    padding: 2px 44px;
+    text-decoration: none;
+  }
+  #logo img{
+    height: 60px;
+    filter: invert(1);
+  }
+  #logo{
+    margin: 0px 30px;
+    /* margin-right: 40px; */
+  }
+  #logo h3{
+    margin: -43px 60px;
+    color: white;
+  }
+  /* Home page */
+  #introSection {
+    background-color: aqua;
+    height: 430px;
+  background:center/cover no-repeat url('/static/download.jpg');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 50px;
+    align-items: center;
+font-weight:bold ;
+
+  }
+  
+  /* #missionsection */
+/* #missionSection */
+#missionSection {
+    height: 326px;
+    width: 91%;
+    margin: auto;
+    display: flex; /* Add display:flex; to center the content horizontally */
+    flex-direction: column; /* To stack the heading and card-container vertically */
+    justify-content: center; /* To vertically center the content */
+    font-family: 'Roboto Mono', monospace;
+
+  }
+  
+  #missionSection h1 {
+    font-size: 36px;
+    font-family: 'Yeon Sung';
+    text-align: center;
+    padding-top: 12px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fae3c8;
+    transition: all;
+    transition-duration: 1s;
+    box-shadow: 10px;
+  }
+  .card:hover{
+    background-color: #f0d3b2;
+    transform: scale(1.2);
+}
+
+
+
+  .card h3 {
+    text-align: center;
+    margin: 0;
+    margin-top: 14px;
+   
+    font-family: 'Roboto Mono', monospace;
+
+  }
+  .card-img img{
+    height:160px;
+    margin-left: -179px;
+ margin-top:55px;
+  }
+  .content h3{
+    /* display: flex; */
+    align-items: center;
+    margin: -118px 35px;
+    font-size: 18px;
+    margin-left: 90px;
+  }
+  
+  /* #sponsersection */
+  #sponsersection {
+    background-color: #fbd6d6c7;
+    height: 300px;
+  }
+  #sponsersection h2{
+    display: flex;
+    justify-content: center;
+    padding: 12px
+  }
+  #sponsersection img{
+    margin:9px 12px;
+  }
+  /* #footer */
+  #footer {
+    background-color: black;
+    height: 55px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+}
+#footer p{
+    font-family: 'Roboto Mono', monospace;
+
+  }
